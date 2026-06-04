@@ -1,3 +1,6 @@
+작업 중.
+
+<del>
 # SlimViewer
 
 Lightweight and fast document viewer app for Android.
@@ -28,3 +31,5 @@ Lightweight and fast document viewer app for Android.
 **Phase 1: Foundation & Scaffolding** is complete.
 The project has a solid skeleton, file routing logic, and a placeholder UI.
 Native engine integration (LibreOffice and hwplib) is pending in future phases.
+
+</del>
