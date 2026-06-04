@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.slimviewer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.13.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/e9e4d0467c88dd38a22790151e8683a3/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+12        android:name="com.slimviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/e9e4d0467c88dd38a22790151e8683a3/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/e9e4d0467c88dd38a22790151e8683a3/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.slimviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/e9e4d0467c88dd38a22790151e8683a3/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/e9e4d0467c88dd38a22790151e8683a3/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:4:5-37:19
+18        android:allowBackup="true"
+18-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.13.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/e9e4d0467c88dd38a22790151e8683a3/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@android:mipmap/sym_def_app_icon"
+22-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:6:9-56
+23        android:label="@string/app_name"
+23-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:7:9-41
+24        android:roundIcon="@android:mipmap/sym_def_app_icon"
+24-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:8:9-61
+25        android:supportsRtl="true"
+25-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:9:9-35
+26        android:theme="@style/Theme.SlimViewer" >
+26-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:10:9-48
+27        <activity
+27-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:11:9-36:20
+28            android:name="com.slimviewer.MainActivity"
+28-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:12:13-41
+29            android:exported="true"
+29-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:13:13-36
+30            android:theme="@style/Theme.SlimViewer" >
+30-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:14:13-52
+31            <intent-filter>
+31-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:15:13-18:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:16:17-69
+32-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:16:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:17:17-77
+34-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:17:27-74
+35            </intent-filter>
+36
+37            <!-- Handle opening files from other apps -->
+38            <intent-filter>
+38-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:21:13-35:29
+39                <action android:name="android.intent.action.VIEW" />
+39-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:22:17-69
+39-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:22:25-66
+40
+41                <category android:name="android.intent.category.DEFAULT" />
+41-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:23:17-76
+41-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:23:27-73
+42                <category android:name="android.intent.category.BROWSABLE" />
+42-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:24:17-78
+42-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:24:27-75
+43
+44                <data android:scheme="content" />
+44-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:25:17-50
+44-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:25:23-47
+45                <data android:host="*" />
+45-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:25:17-50
+45-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:26:23-39
+46                <data android:mimeType="application/msword" />
+46-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:25:17-50
+46-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:27:23-60
+47                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+47-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:25:17-50
+47-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:27:23-60
+48                <data android:mimeType="application/vnd.ms-excel" />
+48-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:25:17-50
+48-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:27:23-60
+49                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+49-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:25:17-50
+49-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:27:23-60
+50                <data android:mimeType="application/vnd.oasis.opendocument.text" />
+50-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:25:17-50
+50-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:27:23-60
+51                <data android:mimeType="application/vnd.oasis.opendocument.spreadsheet" />
+51-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:25:17-50
+51-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:27:23-60
+52                <data android:mimeType="application/x-hwp" />
+52-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:25:17-50
+52-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:27:23-60
+53                <data android:mimeType="application/haansofthwp" />
+53-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:25:17-50
+53-->/Users/gimhyeonil/APP/slimviewer/app/src/main/AndroidManifest.xml:27:23-60
+54            </intent-filter>
+55        </activity>
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.3.0] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/26d6f37332b6a828ddc4db931e7e67b1/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.3.0] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/26d6f37332b6a828ddc4db931e7e67b1/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+59            android:authorities="com.slimviewer.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.3.0] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/26d6f37332b6a828ddc4db931e7e67b1/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.3.0] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/26d6f37332b6a828ddc4db931e7e67b1/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.3.0] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/26d6f37332b6a828ddc4db931e7e67b1/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.3.0] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/26d6f37332b6a828ddc4db931e7e67b1/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.3.0] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/26d6f37332b6a828ddc4db931e7e67b1/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.8.0] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/dd6b3f3d16f4dcc8f2e12b8cacc44c84/transformed/lifecycle-process-2.8.0/AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.8.0] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/dd6b3f3d16f4dcc8f2e12b8cacc44c84/transformed/lifecycle-process-2.8.0/AndroidManifest.xml:30:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.8.0] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/dd6b3f3d16f4dcc8f2e12b8cacc44c84/transformed/lifecycle-process-2.8.0/AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+69                android:value="androidx.startup" />
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+70        </provider>
+71
+72        <activity
+72-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/6822327a66f1331d17ab0386d5478600/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:23:9-25:39
+73            android:name="androidx.activity.ComponentActivity"
+73-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/6822327a66f1331d17ab0386d5478600/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:24:13-63
+74            android:exported="true" />
+74-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/6822327a66f1331d17ab0386d5478600/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:25:13-36
+75        <activity
+75-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/da64602bd41b62e3dfbbe378e5840e2d/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+76            android:name="androidx.compose.ui.tooling.PreviewActivity"
+76-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/da64602bd41b62e3dfbbe378e5840e2d/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+77            android:exported="true" />
+77-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/da64602bd41b62e3dfbbe378e5840e2d/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+78
+79        <receiver
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+81            android:directBootAware="false"
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+82            android:enabled="true"
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+83            android:exported="true"
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+84            android:permission="android.permission.DUMP" >
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+89                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+92                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+95                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/gimhyeonil/.gradle/caches/9.0.0/transforms/ca0d5053ef5f5aa6b0342afd57742956/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+96            </intent-filter>
+97        </receiver>
+98    </application>
+99
+100</manifest>
